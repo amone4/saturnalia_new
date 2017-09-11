@@ -1,0 +1,38 @@
+[
+	{
+		"id" : "1",
+		"photo" : "photo1",
+		"title" : "title1",
+		"prize" : "prize1",
+		"date" : "date1",
+		"venue" : "venue1",
+		"time" : "time1",
+		"desc" : "desc1",
+		"rules" : [
+			{
+				"id" : "rule11",
+				"desc" : "desc11"
+			}
+		]
+	},
+	{
+		"id" : "2",
+		"photo" : "photo2",
+		"title" : "title2",
+		"prize" : "prize2",
+		"date" : "date2",
+		"venue" : "venue2",
+		"time" : "time2",
+		"desc" : "desc2",
+		"rules" : [
+			{
+				"id" : "rule21",
+				"desc" : "desc21"
+			},
+			{
+				"id" : "rule22",
+				"desc" : "desc22"
+			}
+		]
+	}
+]

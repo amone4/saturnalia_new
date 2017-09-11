@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> <!-- Bootstrap -->
+	<title>Saturnalia 2017</title>
+
+	<style type="text/css">
+		.card {
+			background-color: #eee;
+			padding: 0;
+			margin: 0;
+		}
+
+		.card-image-container {
+			padding: 0;
+			max-width: 300px;
+			background-image: url('img/p2.jpg');
+			overflow: hidden;
+		}
+
+		.card-content {
+			margin-right: 0;
+		}
+
+		.card-image {
+			padding: 0;
+			height: 100%;
+			width: auto;
+		}
+
+		.card-rules {
+			float: right;
+			cursor: pointer;
+		}
+
+		.card-name {
+			font-size: 2.2em;
+			line-height: 0.88;
+			border-bottom: 1px black;
+			border-bottom-style: dashed;
+			text-shadow:
+			2px 2px #eee,
+			2px -2px #eee,
+			-2px 2px #eee,
+			-2px -2px #eee;
+		}
+
+		.card-price {
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			font-size: 1.1em;
+			text-transform: uppercase;
+			letter-spacing: 1.5pt;
+		}
+
+		.card-details {
+			list-style: none;
+			margin:0;
+			padding:0;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="card row">
+			<div class="card-image-container col-xs-4 ">
+				<img src="img/p2.jpg" class="card-image">
+			</div>
+			<div class="card-content col-xs-8">
+				<h4 class="card-name">Google I/O 17</h4>
+				<p class="card-desc">
+					Google I/O is an annual developer conference held by Google in San Francisco, California.
+				</p>
+				<div class="card-price">INR 2000</div>
+				<ul class="card-details">
+					<li class="card-date">23/5/17</li>
+					<li class="card-venue">TAN Audi</li>
+					<li class="card-time">9:00 - 13:00</li>
+					<li class="card-status">Open</li>
+				</ul>
+				<a class="card-rules">Rules</a>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery-2.1.4.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><!--Bootstrap-->
+</body>
+</html>

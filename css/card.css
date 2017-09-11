@@ -1,0 +1,63 @@
+.card {
+	background-color: #eee;
+	padding: 0;
+	margin: 0;
+}
+
+.card-image-container {
+	padding: 0;
+	max-width: 300px;
+	background-image: url('img/p2.jpg');
+	overflow: hidden;
+}
+
+.card-content {
+	margin-right: 0;
+}
+
+.card-image {
+	padding: 0;
+	height: 100%;
+	width: auto;
+}
+
+.card-rules-toggle {
+	position: absolute;
+	right: 10px;
+	font-size: 1.3em;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.card-rules-toggle:hover {
+	text-decoration: none;
+}
+
+.card-name {
+	font-size: 2.2em;
+}
+
+.card-price {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	letter-spacing: 1.5pt;
+}
+
+.card-details {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+.card-rules {
+	margin-top: 30px;
+	border-top: 2px dashed black;
+}
+
+.card-rules ol {
+	margin: 15px;
+	padding: 0;
+}
