@@ -1,37 +1,225 @@
 [
 	{
-		"id" : "1",
-		"photo" : "photo1",
-		"title" : "title1",
-		"prize" : "prize1",
-		"date" : "date1",
-		"venue" : "venue1",
-		"time" : "time1",
-		"desc" : "desc1",
+		"id" : 1,
+		"photo" : "t (1)",
+		"title" : "Line follower",
+		"desc" : "The teams are required to make an autonomous bot using IR sensors(or any other sensor deemed suitable). The bot has to follow a track of black lines on its own. It can&#39;t be manually controlled using wires or wirelessly.",
+		"prize" : 1800,
+		"date" : "10/11/17",
+		"venue" : "TAN Audi",
+		"time" : "7.00 PM",
 		"rules" : [
 			{
-				"id" : "rule11",
-				"desc" : "desc11"
+				"id" : 1,
+				"desc" : "Description Here"
+			},
+			{
+				"id" : 2,
+				"desc" : "Another Description Here"
+			},
+			{
+				"id" : 3,
+				"desc" : "Yet Another Description Here"
 			}
 		]
 	},
 	{
-		"id" : "2",
-		"photo" : "photo2",
-		"title" : "title2",
-		"prize" : "prize2",
+		"id" : 2,
+		"photo" : "t (2)",
+		"title" : "Droid Rush",
+		"desc" : "It is a race of the bots. Your bot needs to be the fastest to complete the given trrack and leave all others behind.",
+		"prize" : 1800,
+		"date" : "10/11/17",
+		"venue" : "TAN Audi",
+		"time" : "7.00 PM",
+		"rules" : [
+			{
+				"id" : 1,
+				"desc" : "Description Here"
+			},
+			{
+				"id" : 1,
+				"desc" : "Description Here"
+			}
+		]
+	},
+	{
+		"id" : 3,
+		"photo" : "t (3)",
+		"title" : "Bridge It",
+		"desc" : "A bridge has to be designed on the spot with the help of popsicle sticks that can sustain the maximum load. 1 hour time would be given to the participants to complete the bridge after which certain penalties would be levied.",
+		"prize" : 1800,
+		"date" : "10/11/17",
+		"venue" : "TAN Audi",
+		"time" : "7.00 PM",
+		"rules" : [
+			{
+				"id" : 1,
+				"desc" : "Description Here"
+			}
+		]
+	},
+	{
+		"id" : 4,
+		"photo" : "t (4)",
+		"title" : "Puck Collector",
+		"desc" : "Two Remote Controlled robots compete in an arena. 10 pucks of each assigned colour are distributed randomly on the Arena. The aim is to collect all pucks of the assigned colour and carry them to the own home base.",
+		"prize" : 1800,
+		"date" : "10/11/17",
+		"venue" : "TAN Audi",
+		"time" : "7.00 PM",
+		"rules" : [
+			{
+				"id" : 1,
+				"desc" : "Description Here"
+			}
+		]
+	},
+	{
+		"id" : 5,
+		"photo" : "t (5)",
+		"title" : "Invento	",
+		"desc" : "The objective of this competition is formulating solution of a problem using existing/emerging/novel concepts or technologies.",
+		"prize" : 1800,
+		"date" : "10/11/17",
+		"venue" : "TAN Audi",
+		"time" : "7.00 PM",
+		"rules" : [
+			{
+				"id" : 1,
+				"desc" : "Description Here"
+			}
+		]
+	},
+	{
+		"id" : 6,
+		"photo" : "t (6)",
+		"title" : "Robo Wrestle",
+		"desc" : "A manually controlled robot wired or wireless has to either push other robot out of arena or make it immobile. Robots can have pushing, toppling and braking mechanisms.",
+		"prize" : 1800,
+		"date" : "10/11/17",
+		"venue" : "TAN Audi",
+		"time" : "7.00 PM",
+		"rules" : [
+			{
+				"id" : 1,
+				"desc" : "Description Here"
+			}
+		]
+	},
+	{
+		"id" : 8,
+		"photo" : "t (8)",
+		"title" : "Catapult",
+		"desc" : "Each team must design, build and present a catapult that will accurately propel a tennis ball and the team who&#39;s ball transverses the maximum distance after being propelled will be declared winner.",
+		"prize" : 1800,
+		"date" : "10/11/17",
+		"venue" : "TAN Audi",
+		"time" : "7.00 PM",
+		"rules" : [
+			{
+				"id" : 1,
+				"desc" : "Description Here"
+			}
+		]
+	},
+	{
+		"id" : 9,
+		"photo" : "t (9)",
+		"title" : "Soap Cutting",
+		"desc" : "You will have to carve a block of soap into required shapes in the given period of time with the help of a blade and a scale.",
+		"prize" : 1800,
+		"date" : "10/11/17",
+		"venue" : "TAN Audi",
+		"time" : "7.00 PM",
+		"rules" : [
+			{
+				"id" : 1,
+				"desc" : "Description Here"
+			}
+		]
+	},
+	{
+		"id" : 10,
+		"photo" : "t (1)",
+		"title" : "Chem-O-Rocket",
+		"desc" : "Create your own mode of flying by architecting a chemical propelled rocket with the chemicals provided on the spot.",
+		"prize" : 1800,
+		"date" : "10/11/17",
+		"venue" : "TAN Audi",
+		"time" : "7.00 PM",
+		"rules" : [
+			{
+				"id" : 1,
+				"desc" : "Description Here"
+			}
+		]
+	},
+	{
+		"id" : 11,
+		"photo" : "t (1)",
+		"title" : "Technathalon",
+		"desc" : "Multiple rounds coding contest to be held overnight.",
+		"prize" : 1800,
+		"date" : "10/11/17",
+		"venue" : "TAN Audi",
+		"time" : "7.00 PM",
+		"rules" : [
+			{
+				"id" : 1,
+				"desc" : "Description Here"
+			}
+		]
+	},
+	{
+		"id" : 12,
+		"photo" : "t (1)",
+		"title" : "Switch Coding",
+		"desc" : "Each team (of 3) will be provided with 3 problems in which the teams would have to solve all the 3 problems simultaneously where each member will be dealing with a problem at a time.",
+		"prize" : 1800,
+		"date" : "10/11/17",
+		"venue" : "TAN Audi",
+		"time" : "7.00 PM",
+		"rules" : [
+			{
+				"id" : 1,
+				"desc" : "Description Here"
+			}
+		]
+	},
+	{
+		"id" : 13,
+		"photo" : "t (1)",
+		"title" : "Map My Town",
+		"desc" : "Plan a town for x number of people with all facilities like public transport, water and sewage network etc. Effective zoning and interdependency all of all activities should be the thumb rule to evaluate the models.",
+		"prize" : 1800,
+		"date" : "10/11/17",
+		"venue" : "TAN Audi",
+		"time" : "7.00 PM",
+		"rules" : [
+			{
+				"id" : 1,
+				"desc" : "Description Here"
+			}
+		]
+	},
+	{
+		"id" : 14,
+		"photo" : "t (14)",
+		"title" : "ACM ICPC Style Coding Contest",
+		"desc" : "A coding contest based on ACM International Collegiate Programming Contest.",
+		"prize" : 2000,
 		"date" : "date2",
 		"venue" : "venue2",
 		"time" : "time2",
-		"desc" : "desc2",
 		"rules" : [
 			{
-				"id" : "rule21",
-				"desc" : "desc21"
+				"id" : 1,
+				"desc" : "First Rule"
 			},
 			{
-				"id" : "rule22",
-				"desc" : "desc22"
+				"id" : 2,
+				"desc" : "Another Rule"
 			}
 		]
 	}
