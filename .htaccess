@@ -6,3 +6,6 @@ Deny from all
 Order allow,deny
 Deny from all
 </Files>
+<filesMatch ".(mp4)$">
+Header set Cache-Control "max-age=864000, public"
+</filesMatch>

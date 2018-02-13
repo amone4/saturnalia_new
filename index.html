@@ -2,21 +2,54 @@
 <html>
 <head>
 	<title>Saturnalia'17</title>
-	<link rel="stylesheet" href="css/style-main.css">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<meta charset="utf-8">
+	<meta name="description" content="Saturnalia - Thapar University is one of the biggest techno-cultural festival of north India. Held in November with pro shows like Battle of Bands & Campus Princess, it celebrates a weekend of technical and cultural events.">
+	<meta name="keywords" content="Music, Dance, Fest, Saturnalia, Battle of Bands, Campus Princess, Abhishek, Upmanyu, Infinity, Thapar, Experience Infinity">
+	<meta name="viewport" content="width=device-width, maximum-scale=1">
+	<meta name=description content="">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style-main.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/jquery-2.1.4.js"></script>
+	<script type="text/javascript">
+		function goTo(query) {
+			document.getElementById('contents').src='?'+query;
+			var active_nav_links = document.getElementsByClassName('nav-active');
+			for(var i=0;i<active_nav_links.length;i++) {active_nav_links[i].classList.remove('nav-active');}
+				document.getElementById('nav-'+query).classList.add('nav-active');
+		}
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/preload-outer.css">
 </head>
-<body onload="goTo('home')">
-	<div id="nav">
-		<img src="img/branding.png" id="branding" onclick="goTo('home')">
-		<div class="nav-link" onclick="goTo('attraction')">Pro-Shows</div>
-		<div class="nav-link" onclick="goTo('cultural')">Cultural</div>
-		<div class="nav-link" onclick="goTo('technical')">Technical</div>
-		<div class="nav-link" onclick="goTo('sponsors')">Sponsors</div>
-		<a href="" class="nav-social"><i class="fa">&#xf082;</i></a>
-		<a href="" class="nav-social"><i class="fa">&#xf16d;</i></a>
-		<a onclick="goTo('contact')" class="nav-social"><i class="fa">&#xf0e0;</i></a>
+<body>
+	<div id="preloader">
+		<svg id="spinner" width="300px" height="200px" viewBox="0 0 187.3 93.7" preserveAspectRatio="xMidYMid meet" style="left: 50%; top: 50%; position: absolute; transform: translate(-50%, -50%) matrix(1, 0, 0, 1, 0, 0);">
+			<path stroke="#ededed" id="outline" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z" />
+			<path id="outline-bg" opacity="0.05" fill="none" stroke="#ededed" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z" />
+		</svg>
+		<font style="position: absolute; bottom: 0;width: 100%;font-family: sans-serif;text-align: center;">
+			<font style="font-size: 1.5em;">Loading</font>
+			<h1 style="font-size: 2.5em;">SATURNALIA'17</h1>
+		</font>
 	</div>
-	<iframe id="contents"></iframe>
-	<script type="text/javascript" src="js/main.js"></script>
+	<div id="content">
+		<div id="nav">
+			<img src="img/branding.png" id="branding" onclick="goTo('home')">
+			<!-- <div class="nav-link nav-active" id="nav-home" onclick="goTo('home')">Sneak-Peek</div> -->
+			<div class="nav-link" id="nav-attraction" onclick="goTo('attraction')">Pro-Shows</div>
+			<div class="nav-link" id="nav-cultural" onclick="goTo('cultural')">Cultural</div>
+			<div class="nav-link" id="nav-technical" onclick="goTo('technical')">Technical</div>
+			<div class="nav-link" id="nav-sponsors" onclick="goTo('sponsors')">Sponsors</div>
+			<a href="https://www.facebook.com/saturnalia.org.in/" class="nav-social"><i class="fa">&#xf082;</i></a>
+			<a href="https://www.instagram.com/saturnalia.tu/" class="nav-social"><i class="fa">&#xf16d;</i></a>
+			<a onclick="goTo('contact')" class="nav-social"><i class="fa">&#xf0e0;</i></a>
+		</div>
+		<iframe id="contents"></iframe>
+		<script type="text/javascript">goTo('home');</script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</div>
+	<script src="js/preload-outer.js"></script>
 </body>
 </html>

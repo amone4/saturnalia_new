@@ -38,44 +38,6 @@ a {
 	text-decoration: none;
 }
 
-/* --------------Custom CSS---------------*/
-
-.bck {
-	margin-bottom: 4%;
-	height: 100vh;
-}
-
-.bck > video {
-	height: 100vh;
-	width: 100%;
-	filter: grayscale(40%);
-	opacity: 0.8;
-	object-fit: cover;
-}
-
-.middle {
-	margin: 0;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-}
-
-.img-head {
-	height: 55vh;
-	width: auto;
-	margin-bottom: 10px;
-}
-
-.aliter-branding {
-	display: none;
-
-}
-
-.fullscreen {
-	height: 100vh;
-}
 /* -------------------------------- 
 
 Main Components 
@@ -120,30 +82,22 @@ Main Components
 	background-color: #fcb052;
 }
 .cd-section:nth-of-type(5) > div {
-	background: #222;
-	background-image: -webkit-linear-gradient(top, #333, #000);
-	background-image:    -moz-linear-gradient(top, #333, #000);
-	background-image:     -ms-linear-gradient(top, #333, #000);
-	background-image:      -o-linear-gradient(top, #333, #000);
-	background-image:         linear-gradient(top, #333, #000);
+	background-color: #f0a812;
 }
 [data-animation="parallax"] .cd-section > div, [data-animation="fixed"] .cd-section > div, [data-animation="opacity"] .cd-section > div {
   background-position: center center;
   background-repeat: repeat;
   /*background-size: cover;*/
 }
-[data-animation="parallax"] .cd-section:nth-of-type(2) > div, [data-animation="fixed"] .cd-section:nth-of-type(2) > div, [data-animation="opacity"] .cd-section:nth-of-type(2) > div {
-  background-image: url("../img/img-3.jpg");
-}
 [data-animation="parallax"] .cd-section:nth-of-type(3) > div, [data-animation="fixed"] .cd-section:nth-of-type(3) > div, [data-animation="opacity"] .cd-section:nth-of-type(3) > div {
-  background-image: url("../img/img-3.jpg");
+  background-image: url("../img/bck_presat.jpg");
 }
-[data-animation="parallax"] .cd-section:nth-of-type(4) > div, [data-animation="fixed"] .cd-section:nth-of-type(4) > div, [data-animation="opacity"] .cd-section:nth-of-type(4) > div {
-  background-image: url("../img/img-3.jpg");
+[data-animation="parallax"] .cd-section:nth-of-type(4) > div, [data-animation="fixed"] .cd-section:nth-of-type(3) > div, [data-animation="opacity"] .cd-section:nth-of-type(3) > div {
+  background-image: url("../img/bck_sponsor.jpg");
+  background-size: 100% auto;
 }
-[data-animation="parallax"] .cd-section:nth-of-type(5) > div, [data-animation="fixed"] .cd-section:nth-of-type(5) > div, [data-animation="opacity"] .cd-section:nth-of-type(5) > div {
-  background-image: url("../img/img-3.jpg");
-}@media only screen and (min-width: 1050px) {
+
+@media only screen and (min-width: 1050px) {
 	.cd-section h2 {
 		font-size: 4rem;
 		font-weight: 300;

@@ -1,0 +1,15 @@
+body {
+	background-image: url('../img/tech_bck.jpg');
+	background-repeat: repeat;
+	background-size: 300px 300px;
+}
+
+.jumbotron {
+	font-size: 5em;
+	height: 35vh;
+	background-image: url('../img/tech_jumbo.jpg');
+	background-size: 50% 50%;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0px 3px #000;
+}
