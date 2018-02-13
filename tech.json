@@ -1,225 +1,481 @@
 [
 	{
 		"id" : 1,
-		"photo" : "t (1)",
-		"title" : "Line follower",
-		"desc" : "The teams are required to make an autonomous bot using IR sensors(or any other sensor deemed suitable). The bot has to follow a track of black lines on its own. It can&#39;t be manually controlled using wires or wirelessly.",
-		"prize" : 1800,
+		"photo" : "t (10)",
+		"title" : "Technathalon",
+		"desc" : "A 4-event Mega extravaganza, considering of - It will comprise of Switch coding, Reverse Coding, Mock ICPC and Capture the flag. Each team will have exactly 3 members who will remain same for all the 4 events. Each event will hold points, which the teams have to earn. The team with maximum points will be the winning team.",
+		"prize" : 80000,
 		"date" : "10/11/17",
 		"venue" : "TAN Audi",
-		"time" : "7.00 PM",
+		"time" : "12:00 Midnight",
 		"rules" : [
 			{
 				"id" : 1,
-				"desc" : "Description Here"
+				"desc" : "<b>Switch Coding</b> - 1st position : 50 points, 2nd position : 30 points, 3rd position : 10 points"
 			},
 			{
 				"id" : 2,
-				"desc" : "Another Description Here"
+				"desc" : "<b>Reverse Coding</b> - 1st position : 50 points, 2nd position : 30 points, 3rd position : 10 points"
 			},
 			{
 				"id" : 3,
-				"desc" : "Yet Another Description Here"
+				"desc" : "<b>Mock ICPC</b> - 1st position : 90 points, 2nd position : 60 points, 3rd position : 30 points"
+			},
+			{
+				"id" : 4,
+				"desc" : "<b>Capture The Flag</b> - 1st position : 60 points, 2nd position : 40 points, 3rd position : 20 points"
 			}
 		]
 	},
 	{
 		"id" : 2,
-		"photo" : "t (2)",
-		"title" : "Droid Rush",
-		"desc" : "It is a race of the bots. Your bot needs to be the fastest to complete the given trrack and leave all others behind.",
-		"prize" : 1800,
+		"photo" : "t (11)",
+		"title" : "Switch Coding",
+		"desc" : "It is a team-based algorithmic hard coding event. Each team will be provided with 3 problems in which the teams would have to solve all the 3 problems simultaneously where each member will be dealing with one problem at a time. All the members of a team have to code in the same language. The programs have to be written in C or C++ or JAVA or Python.",
+		"prize" : 10000,
 		"date" : "10/11/17",
 		"venue" : "TAN Audi",
-		"time" : "7.00 PM",
+		"time" : "12:00 Midnight",
 		"rules" : [
 			{
 				"id" : 1,
-				"desc" : "Description Here"
+				"desc" : "After the shot of the buzzer which would buzz after every 10 minutes, team members have to switch places and continue coding from where his or her team member left off."
 			},
 			{
-				"id" : 1,
-				"desc" : "Description Here"
+				"id" : 2,
+				"desc" : "No discussion will be permitted among team members. Members of same team will be well separated."
+			},
+			{
+				"id" : 3,
+				"desc" : "Team members cannot be changed or switched or replaced during the event. No member will be allowed to swap the position before the buzzer, no matter if she or he has completed her or his part of the question."
+			},
+			{
+				"id" : 3,
+				"desc" : "The participant will not be allowed access to the internet. If found using any unfair means, the team will be disqualified."
 			}
 		]
 	},
 	{
 		"id" : 3,
-		"photo" : "t (3)",
-		"title" : "Bridge It",
-		"desc" : "A bridge has to be designed on the spot with the help of popsicle sticks that can sustain the maximum load. 1 hour time would be given to the participants to complete the bridge after which certain penalties would be levied.",
-		"prize" : 1800,
+		"photo" : "t (11)",
+		"title" : "Reverse Coding",
+		"desc" : "Reverse Coding will test logical thinking and basic programming skills. The idea behind this event is to figure out the Black Box. In other words the participants have to think in reverse to decipher what a particular code does.",
+		"prize" : 10000,
 		"date" : "10/11/17",
 		"venue" : "TAN Audi",
-		"time" : "7.00 PM",
+		"time" : "12:00 Midnight",
 		"rules" : [
 			{
 				"id" : 1,
-				"desc" : "Description Here"
+				"desc" : "Each team needs to write a working but tempered code (difficult to understand just by reading) for the problem assigned to them. 1 hour is the time limit to write the code."
+			},
+			{
+				"id" : 2,
+				"desc" : "The codes of all the problems except their own, will be distributed to every team. Each team will then get time based on the number of total codes submitted to decipher the purpose of the code."
+			},
+			{
+				"id" : 3,
+				"desc" : "Use of any compiler or online means for deciphering is prohibited. Deciphering needs to be done just by looking at the code."
+			},
+			{
+				"id" : 3,
+				"desc" : "Team to identify the purpose of maximum number of codes win. In case of a draw an additional time will be given. The team to decipher one code first wins."
 			}
 		]
 	},
 	{
 		"id" : 4,
-		"photo" : "t (4)",
-		"title" : "Puck Collector",
-		"desc" : "Two Remote Controlled robots compete in an arena. 10 pucks of each assigned colour are distributed randomly on the Arena. The aim is to collect all pucks of the assigned colour and carry them to the own home base.",
-		"prize" : 1800,
+		"photo" : "t (13)",
+		"title" : "Mock ICPC",
+		"desc" : "A coding contest based on ACM International Collegiate Programming Contest.The contest typically lasts five hours.",
+		"prize" : 10000,
 		"date" : "10/11/17",
 		"venue" : "TAN Audi",
-		"time" : "7.00 PM",
+		"time" : "12:00 Midnight",
 		"rules" : [
 			{
 				"id" : 1,
-				"desc" : "Description Here"
+				"desc" : "Each team gets to use one computer with software tools or data or docs. Use of printed books and program listings is allowed but calculators, CDs, mobile phones, Internet search, etc. are prohibited."
+			},
+			{
+				"id" : 2,
+				"desc" : "Problems may vary (considerably) in difficulty, and appear in ‘random’ order in the problem set. Solutions must be submitted through the mechanism or system provided."
+			},
+			{
+				"id" : 3,
+				"desc" : "Each submission is judged during the contest as accepted or rejected; the latter will be explained a little bit (compile-time error, resource-limit exceeded, incorrect output format, incorrect output, run-time error), but without further details."
+			},
+			{
+				"id" : 4,
+				"desc" : "Ranking of teams is based - <br>a. First on number of problems solved. <br>b. In case of a tie, the total time for all accepted submissions is taken into account. <br>c. Time is measured from the beginning of the contest until the submission was accepted by the jury, where each rejected submission adds 20 minutes penalty time. <br>d. If there is still a tie, the time of acceptance for the last problem solved will matter."
 			}
 		]
 	},
 	{
 		"id" : 5,
-		"photo" : "t (5)",
-		"title" : "Invento	",
-		"desc" : "The objective of this competition is formulating solution of a problem using existing/emerging/novel concepts or technologies.",
-		"prize" : 1800,
+		"photo" : "t (13)",
+		"title" : "Capture the Flag",
+		"desc" : "There will be questions (tasks) in range of categories. For example - Web, Forensic, Crypto, Binary or something else. Teams will gain some points for every solved task. More points for more complicated tasks usually. The next task in chain can be opened only after some teams solve the previous task. After the game is over, the sum of points declare the CTF winner.",
+		"prize" : 10000,
 		"date" : "10/11/17",
 		"venue" : "TAN Audi",
-		"time" : "7.00 PM",
+		"time" : "12:00 Midnight",
 		"rules" : [
 			{
 				"id" : 1,
-				"desc" : "Description Here"
+				"desc" : "Do not discuss the strategy, suggestions or tips during the time when the contest is live."
+			},
+			{
+				"id" : 2,
+				"desc" : "Denial of service is strictly forbidden. Intentional acts will be punished."
+			},
+			{
+				"id" : 3,
+				"desc" : "You are free to use any tools or libraries to find or extract the flag as long it does not violate the other rules."
 			}
 		]
 	},
 	{
 		"id" : 6,
-		"photo" : "t (6)",
-		"title" : "Robo Wrestle",
-		"desc" : "A manually controlled robot wired or wireless has to either push other robot out of arena or make it immobile. Robots can have pushing, toppling and braking mechanisms.",
-		"prize" : 1800,
-		"date" : "10/11/17",
-		"venue" : "TAN Audi",
-		"time" : "7.00 PM",
+		"photo" : "t (1)",
+		"title" : "Hack Wars",
+		"desc" : "Ever wished to hack some device? Well here we give you a chance to officially do the same in none other than the first ever Hack Wars.",
+		"prize" : 30000,
+		"date" : "12/11/17",
+		"venue" : "CITM",
+		"time" : "10:00 AM",
 		"rules" : [
 			{
 				"id" : 1,
-				"desc" : "Description Here"
+				"desc" : "Team should be of exactly 3 Members. The contest will last for 30 minutes per round."
+			},
+			{
+				"id" : 2,
+				"desc" : "Both teams will be given a server to defend and have to get a shell on the other team’s server. The contestants are not allowed to disable any services or ports on the server."
+			},
+			{
+				"id" : 3,
+				"desc" : "Hail mary attacks on other team’s server will result disqualification."
+			},
+			{
+				"id" : 4,
+				"desc" : "Ranking of teams is based on - <br>a. Each shell on the other team’s server grants the attacking team a point. <br>b. When a service is used to get a shell on the opposite team, the service will be stopped and the exploit will be disabled for both the teams. <br>c. An admin shell grants the attacking team extra points. <br>d. If there is a tie, the team with first shell wins."
+			},
+			{
+				"id" : 5,
+				"desc" : "Responsible disclosure of vulnerabilities and serious bugs in our infrastructure or rules will be rewarded with bonus points according to our judgement as well as eternal fame."
+			},
+			{
+				"id" : 6,
+				"desc" : "Causing unnecessarily high loads for CPU, traffic, memory, IO, etc. (denial of service) on our infrastructure or any other party is also strictly prohibited. Breaking a service of another team through sheer amount of requests is forbidden, breaking it through a vulnerability is OK as long as it does not lead to resource spikes."
+			},
+			{
+				"id" : 7,
+				"desc" : "You’re free to use any tools or libraries to exploit the other team’s server as long as they do not violate the other rules."
+			},
+			{
+				"id" : 8,
+				"desc" : "Teams are prohibited to filter connections to services on the server, as long as the services do not cause unreasonably high loads. Vulnerabilities should be patched by fixing the actual bug in the service."
+			},
+			{
+				"id" : 9,
+				"desc" : "Changing the routing on any compromised host or Destructive behavior (e.g. deleting vital system files) will result in disqualification."
+			}
+		]
+	},
+	{
+		"id" : 7,
+		"photo" : "t (13)",
+		"title" : "Game Jam",
+		"desc" : "Game Jam is an event where you create a game from scratch in a weekend, based on a theme. The event is open to everyone. Teams, individual, or anyone who want to come and make something. You’re free to use any tools or libraries to create your game. You are free to start with any base-code you may have. At the end, you will be required to share your source code.",
+		"prize" : 30000,
+		"date" : "12/11/17",
+		"venue" : "CITM",
+		"time" : "12:00 PM",
+		"rules" : [
+			{
+				"id" : 1,
+				"desc" : "All participants who submit a game are allowed to judge. Games are given 1-5 star ratings in each category, or NA where not applicable."
+			},
+			{
+				"id" : 2,
+				"desc" : "The categories include - Fun, Theme, Graphics, Audio, Humor, Mood, Overall, Innovation."
+			},
+			{
+				"id" : 3,
+				"desc" : "The event has a submission time of 30 minutes that takes place at the end if the event. This is an extra time for you to package-up and subbmit your game."
 			}
 		]
 	},
 	{
 		"id" : 8,
-		"photo" : "t (8)",
-		"title" : "Catapult",
-		"desc" : "Each team must design, build and present a catapult that will accurately propel a tennis ball and the team who&#39;s ball transverses the maximum distance after being propelled will be declared winner.",
-		"prize" : 1800,
+		"photo" : "t (1)",
+		"title" : "Line Follower",
+		"desc" : "In this era of robots, make an autonomous bot using IR sensors that has to follow a track of black lines on its own and sustain against the best of bots. The competition requires the bot to be quick and precise at the same time and will consist of two rounds.",
+		"prize" : 20000,
 		"date" : "10/11/17",
-		"venue" : "TAN Audi",
-		"time" : "7.00 PM",
+		"venue" : "C-Hall",
+		"time" : "3:00 PM",
 		"rules" : [
 			{
 				"id" : 1,
-				"desc" : "Description Here"
+				"desc" : "Maximum number of participants in a team should not be more than 4."
+			},
+			{
+				"id" : 2,
+				"desc" : "A trial run will be given before the start of competition."
+			},
+			{
+				"id" : 3,
+				"desc" : "No team member is allowed to touch the bot during round 1."
+			},
+			{
+				"id" : 4,
+				"desc" : "During round 2, one of the team members can lift the bot and restart from the previous check-point if the bot tumbles, or halts, or goes off the arena at any point on the track."
+			},
+			{
+				"id" : 5,
+				"desc" : "Bot dimensions should be under 30cm x 30cm x 30cm and battery should be on the bot itself."
 			}
 		]
 	},
 	{
 		"id" : 9,
-		"photo" : "t (9)",
-		"title" : "Soap Cutting",
-		"desc" : "You will have to carve a block of soap into required shapes in the given period of time with the help of a blade and a scale.",
-		"prize" : 1800,
-		"date" : "10/11/17",
-		"venue" : "TAN Audi",
-		"time" : "7.00 PM",
+		"photo" : "t (2)",
+		"title" : "Droid Rush",
+		"desc" : "You need to construct a bot which will compete with other bots in a speed-obstacle race. The bot which will cover the track in the shortest time possible will be declared as the winner. 2 bots will race at a time. Time taken by each bot to complete the track will be noted. There will be obstacles and checkpoints on the track.",
+		"prize" : 20000,
+		"date" : "11/11/17",
+		"venue" : "TAN Buiding",
+		"time" : "12:30 PM",
 		"rules" : [
 			{
 				"id" : 1,
-				"desc" : "Description Here"
+				"desc" : "The bot should be remote controlled (wired or wireless). Pre-fabricated or lego bots are not allowed."
+			},
+			{
+				"id" : 2,
+				"desc" : "No IC engine is allowed and battery should be on the bot."
+			},
+			{
+				"id" : 3,
+				"desc" : "Bot dimensions should be strictly under 30cm x 30cm x 30 cm. The maximum voltage that can be provided is limited to 24V."
 			}
 		]
 	},
 	{
 		"id" : 10,
-		"photo" : "t (1)",
-		"title" : "Chem-O-Rocket",
-		"desc" : "Create your own mode of flying by architecting a chemical propelled rocket with the chemicals provided on the spot.",
-		"prize" : 1800,
-		"date" : "10/11/17",
-		"venue" : "TAN Audi",
-		"time" : "7.00 PM",
+		"photo" : "t (6)",
+		"title" : "Robo Wrestle",
+		"desc" : "This is a 1 on 1 type game. A robot and an opponent robot will be placed in the arena. The manually controlled robots whether wired or wirelessly will fight and try to push other robot out of arena or make it immobile by toppling.",
+		"prize" : 20000,
+		"date" : "12/11/17",
+		"venue" : "TAN Building",
+		"time" : "12:30 PM",
 		"rules" : [
 			{
 				"id" : 1,
-				"desc" : "Description Here"
+				"desc" : "Maximum participants per team can be 4."
+			},
+			{
+				"id" : 2,
+				"desc" : "Maximum Weight of the robot can be 1 Kg. Max Size of robot can be (30 x 30) cm2."
+			},
+			{
+				"id" : 3,
+				"desc" : "Robot must not physically separate into pieces. Participants are allowed to buy robotic gripper or build their own."
+			},
+			{
+				"id" : 4,
+				"desc" : "Robot can be controlled wirelessly or by wire. In case of wireless remote, Participants can use any wireless technology (Zigbee, bluetooth, Wi-Fi, RF, IR etc.) for remote control. But we shall not be responsible for any interference in your wireless transmission."
+			},
+			{
+				"id" : 5,
+				"desc" : "Bots should not use more than 24V power supply and only one supply for whole system. You cannot use parallel batteries for generating higher power."
+			},
+			{
+				"id" : 6,
+				"desc" : "Robot will be considered out of arena if it touches the ground or its 75% or more body is out of the boundary. Robot will be declared immobile if it cannot show linear motion."
+			},
+			{
+				"id" : 7,
+				"desc" : "In case of tie, there will be a tiebreaker, which will be decided by the organizers. "
+			},
+			{
+				"id" : 8,
+				"desc" : "If robots become entangled or trapped within another robot, then the competitors should make the timekeeper aware, the fight should be stopped and the robots separated by the safest means."
+			},
+			{
+				"id" : 9,
+				"desc" : "Final Time limits, scoring and penalties rules will be announced on the day of event."
 			}
 		]
 	},
 	{
 		"id" : 11,
-		"photo" : "t (1)",
-		"title" : "Technathalon",
-		"desc" : "Multiple rounds coding contest to be held overnight.",
-		"prize" : 1800,
-		"date" : "10/11/17",
-		"venue" : "TAN Audi",
-		"time" : "7.00 PM",
+		"photo" : "t (5)",
+		"title" : "Invento",
+		"desc" : "The objective of this competition is formulating solution of a problem using existing or emerging or novel concepts or technologies. A project prototype can be presented under these categories - Automation or Electronics, Energy, Automobile, A solution which can help differently abled people, An app or software or web-app bringing change.",
+		"prize" : 15000,
+		"date" : "12/11/17",
+		"venue" : "T105",
+		"time" : "3:00 PM",
 		"rules" : [
 			{
 				"id" : 1,
-				"desc" : "Description Here"
+				"desc" : "A presentation and working prototype has to be presented at the time of the competition."
+			},
+			{
+				"id" : 2,
+				"desc" : "A team of not more than 5 is allowed."
+			},
+			{
+				"id" : 3,
+				"desc" : "Judgement will be done on the basis of Cost effectiveness, Practicality and innovation/uniqueness of idea."
 			}
 		]
 	},
 	{
 		"id" : 12,
-		"photo" : "t (1)",
-		"title" : "Switch Coding",
-		"desc" : "Each team (of 3) will be provided with 3 problems in which the teams would have to solve all the 3 problems simultaneously where each member will be dealing with a problem at a time.",
-		"prize" : 1800,
-		"date" : "10/11/17",
-		"venue" : "TAN Audi",
-		"time" : "7.00 PM",
+		"photo" : "t (4)",
+		"title" : "Puck Collector",
+		"desc" : "Two Remote Controlled robots will compete. 10 pucks of each assigned colour are distributed randomly on the Arena. The aim is to collect all pucks of the assigned colour and carry them to the own home base.",
+		"prize" : 10000,
+		"date" : "12/11/17",
+		"venue" : "TAN Building",
+		"time" : "9:00 AM",
 		"rules" : [
 			{
 				"id" : 1,
-				"desc" : "Description Here"
+				"desc" : "Maximum participants per team can be 4."
+			},
+			{
+				"id" : 2,
+				"desc" : "Maximum Weight of the robot can be 1 Kg. Max Size of robot can be (30 x 30) cm2."
+			},
+			{
+				"id" : 3,
+				"desc" : "Robot must not physically separate into pieces. Participants are allowed to buy robotic gripper or build their own."
+			},
+			{
+				"id" : 4,
+				"desc" : "Robot can be controlled wirelessly or by wire. In case of wireless remote, Participants can use any wireless technology (Zigbee, bluetooth, Wi-Fi, RF, IR etc.) for remote control. But we shall not be responsible for any interference in your wireless transmission."
+			},
+			{
+				"id" : 5,
+				"desc" : "Bots should not use more than 24V power supply and only one supply for whole system. You cannot use parallel batteries for generating higher power."
 			}
 		]
 	},
 	{
 		"id" : 13,
-		"photo" : "t (1)",
-		"title" : "Map My Town",
-		"desc" : "Plan a town for x number of people with all facilities like public transport, water and sewage network etc. Effective zoning and interdependency all of all activities should be the thumb rule to evaluate the models.",
-		"prize" : 1800,
-		"date" : "10/11/17",
-		"venue" : "TAN Audi",
-		"time" : "7.00 PM",
+		"photo" : "t (7)",
+		"title" : "Catapult",
+		"desc" : "Each team must design, build and present a catapult that will accurately propel a tennis ball and the team for which, the ball transverses the maximum distance after being propelled will be declared as the winner.",
+		"prize" : 10000,
+		"date" : "11/11/17",
+		"venue" : "SBI Lawns",
+		"time" : "9:00 AM",
 		"rules" : [
 			{
 				"id" : 1,
-				"desc" : "Description Here"
+				"desc" : "Students will be provided with the following materials at the time of the event - Wood, Hammer, Nails, Axe, Rubberbands."
+			},
+			{
+				"id" : 2,
+				"desc" : "It must be mechanical in nature (no electric parts, battery operated devices or explosive material)."
+			},
+			{
+				"id" : 3,
+				"desc" : "The tennis ball to be launched from the catapult to follow a parabolic path more than a linear path. In other words, tennis ball should be lobbed more than a line drive shot."
+			},
+			{
+				"id" : 4,
+				"desc" : "Each team will be allowed three trials on the arena. Best of three will be counted."
 			}
 		]
 	},
 	{
 		"id" : 14,
-		"photo" : "t (14)",
-		"title" : "ACM ICPC Style Coding Contest",
-		"desc" : "A coding contest based on ACM International Collegiate Programming Contest.",
-		"prize" : 2000,
-		"date" : "date2",
-		"venue" : "venue2",
-		"time" : "time2",
+		"photo" : "t (9)",
+		"title" : "Chem-O-Rocket",
+		"desc" : "Create your own mode of flying by architecting a chemical propelled rocket with all that classroom chemistry you have fathomed your entire life for which only chemicals can be used as a source of energy for propulsion.",
+		"prize" : 10000,
+		"date" : "12/11/17",
+		"venue" : "SBI Lawns",
+		"time" : "9:00 AM",
 		"rules" : [
 			{
 				"id" : 1,
-				"desc" : "First Rule"
+				"desc" : "A team of maximum 4 people is allowed."
 			},
 			{
 				"id" : 2,
-				"desc" : "Another Rule"
+				"desc" : "The rocket should be made using daily household materials and lab chemicals only(will be provided by the organizers)."
+			},
+			{
+				"id" : 3,
+				"desc" : "The driving force for the rocket should be chemicals only.Each team will get 3 chances or trials to launch their rocket. Best of three will be considered for judging."
+			},
+			{
+				"id" : 4,
+				"desc" : "Each team will get 3 chances or trials to launch their rocket. Best of three will be considered for judging. The decision will be made on both the distance covered and the height travelled by the rocket."
+			}
+		]
+	},
+	{
+		"id" : 15,
+		"photo" : "t (3)",
+		"title" : "Bridge It",
+		"desc" : "A bridge has to be designed on the spot with the help of popsicle sticks that can sustain the maximum load. 1 hour time would be given to the participants to complete the bridge after which certain penalties would be levied.",
+		"prize" : 10000,
+		"date" : "11/11/17",
+		"venue" : "C-Hall",
+		"time" : "12:30PM",
+		"rules" : [
+			{
+				"id" : 1,
+				"desc" : "Construct a truss bridge of length 500mm to 700mm using ONLY the material provided."
+			},
+			{
+				"id" : 2,
+				"desc" : "Overlap criteria - The structure must be a truss (not a beam), not more than three popsicle sticks should be overlapped to make truss member."
+			},
+			{
+				"id" : 3,
+				"desc" : "The roadway should be continuous and should allow a 100mm x 100mm vehicle to pass the entire length of the bridge. The total height of the bridge must not be less than 200mm."
+			},
+			{
+				"id" : 4,
+				"desc" : "Loading will be done at the center of the bridge, so make sure that an area of 25mm x 25mm at the centre is free from any truss members."
+			},
+			{
+				"id" : 5,
+				"desc" : "The final score will be calculated based of total weight sustained before failure of the structure and the amount of material used."
+			}
+		]
+	},
+	{
+		"id" : 16,
+		"photo" : "t (8)",
+		"title" : "Soap Cutting",
+		"desc" : "You will have to turn a block of soap into required shapes in a given period of time. Top view or front view or side view of the 3-D model will be given by the organizers.",
+		"prize" : 8000,
+		"date" : "10/11/17",
+		"venue" : "T105",
+		"time" : "5:00 PM",
+		"rules" : [
+			{
+				"id" : 1,
+				"desc" : "Soap block, blade or cutting tool and scale will be provided on the spot."
+			},
+			{
+				"id" : 2,
+				"desc" : "Teams have to complete their models in the given period of time. No extra time would be given."
+			},
+			{
+				"id" : 3,
+				"desc" : "The model with the most accurate shape, size, dimensions and fewer clearances will be declared as the winner."
 			}
 		]
 	}

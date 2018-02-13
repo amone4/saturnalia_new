@@ -1,8 +1,8 @@
 [
 	{
 		"id" : "1",
-		"photo" : "photo1",
-		"title" : "title1",
+		"photo" : "c (1)",
+		"title" : "English Solo Singing: Virtuoso",
 		"prize" : "prize1",
 		"date" : "date1",
 		"venue" : "venue1",
@@ -17,8 +17,184 @@
 	},
 	{
 		"id" : "2",
-		"photo" : "photo2",
-		"title" : "title2",
+		"photo" : "c (2)",
+		"title" : "Hindi Solo Singing: Alfaaz",
+		"prize" : "prize1",
+		"date" : "date1",
+		"venue" : "venue1",
+		"time" : "time1",
+		"desc" : "desc1",
+		"rules" : [
+			{
+				"id" : "rule11",
+				"desc" : "desc11"
+			}
+		]
+	},
+	{
+		"id" : "3",
+		"photo" : "c (3)",
+		"title" : "Punjabi Solo Singing: Lalkaar (tentative)",
+		"prize" : "prize1",
+		"date" : "date1",
+		"venue" : "venue1",
+		"time" : "time1",
+		"desc" : "desc1",
+		"rules" : [
+			{
+				"id" : "rule11",
+				"desc" : "desc11"
+			}
+		]
+	},
+	{
+		"id" : "4",
+		"photo" : "c (4)",
+		"title" : "Solo/Duo Dance: Groove",
+		"prize" : "prize1",
+		"date" : "date1",
+		"venue" : "venue1",
+		"time" : "time1",
+		"desc" : "desc1",
+		"rules" : [
+			{
+				"id" : "rule11",
+				"desc" : "desc11"
+			}
+		]
+	},
+	{
+		"id" : "5",
+		"photo" : "c (5)",
+		"title" : "Group Dance: HIT THE FLOOR",
+		"prize" : "prize1",
+		"date" : "date1",
+		"venue" : "venue1",
+		"time" : "time1",
+		"desc" : "desc1",
+		"rules" : [
+			{
+				"id" : "rule11",
+				"desc" : "desc11"
+			}
+		]
+	},
+	{
+		"id" : "6",
+		"photo" : "c (6)",
+		"title" : "Folk Dance: Virasat",
+		"prize" : "prize1",
+		"date" : "date1",
+		"venue" : "venue1",
+		"time" : "time1",
+		"desc" : "desc1",
+		"rules" : [
+			{
+				"id" : "rule11",
+				"desc" : "desc11"
+			}
+		]
+	},
+	{
+		"id" : "7",
+		"photo" : "c (7)",
+		"title" : "Talent Show: Kala Manch",
+		"prize" : "prize1",
+		"date" : "date1",
+		"venue" : "venue1",
+		"time" : "time1",
+		"desc" : "desc1",
+		"rules" : [
+			{
+				"id" : "rule11",
+				"desc" : "desc11"
+			}
+		]
+	},
+	{
+		"id" : "8",
+		"photo" : "c (8)",
+		"title" : "Nukkad Natak",
+		"prize" : "prize1",
+		"date" : "date1",
+		"venue" : "venue1",
+		"time" : "time1",
+		"desc" : "desc1",
+		"rules" : [
+			{
+				"id" : "rule11",
+				"desc" : "desc11"
+			}
+		]
+	},
+	{
+		"id" : "9",
+		"photo" : "c (9)",
+		"title" : "Lip Sync",
+		"prize" : "prize1",
+		"date" : "date1",
+		"venue" : "venue1",
+		"time" : "time1",
+		"desc" : "desc1",
+		"rules" : [
+			{
+				"id" : "rule11",
+				"desc" : "desc11"
+			}
+		]
+	},
+	{
+		"id" : "10",
+		"photo" : "c (10)",
+		"title" : "Battle of Bands",
+		"prize" : "prize1",
+		"date" : "date1",
+		"venue" : "venue1",
+		"time" : "time1",
+		"desc" : "desc1",
+		"rules" : [
+			{
+				"id" : "rule11",
+				"desc" : "desc11"
+			}
+		]
+	},
+	{
+		"id" : "11",
+		"photo" : "c (11)",
+		"title" : "Solo/Duo Instrumental: Symphony",
+		"prize" : "prize1",
+		"date" : "date1",
+		"venue" : "venue1",
+		"time" : "time1",
+		"desc" : "desc1",
+		"rules" : [
+			{
+				"id" : "rule11",
+				"desc" : "desc11"
+			}
+		]
+	},
+	{
+		"id" : "12",
+		"photo" : "c (12)",
+		"title" : "Chitra Kala",
+		"prize" : "prize1",
+		"date" : "date1",
+		"venue" : "venue1",
+		"time" : "time1",
+		"desc" : "desc1",
+		"rules" : [
+			{
+				"id" : "rule11",
+				"desc" : "desc11"
+			}
+		]
+	},
+	{
+		"id" : "13",
+		"photo" : "c (13)",
+		"title" : "Skit or Twisted Movie: Melodrama or Rangmanch",
 		"prize" : "prize2",
 		"date" : "date2",
 		"venue" : "venue2",
